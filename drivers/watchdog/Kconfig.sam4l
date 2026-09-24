@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_SAM4L
-	bool "Atmel SAM4L MCU Family Watchdog (WDT) Driver"
+	bool "Atmel SAM4L MCU Family Watchdog (WDT) driver"
 	default y
 	depends on DT_HAS_ATMEL_SAM4L_WATCHDOG_ENABLED
 	select HAS_WDT_DISABLE_AT_BOOT

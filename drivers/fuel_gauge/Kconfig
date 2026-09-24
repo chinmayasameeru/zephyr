@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig FUEL_GAUGE
-	bool "Battery fuel gauge drivers"
+	bool "Battery fuel gauge driver"
 	help
 	  Enable battery fuel gauge driver configuration.
 

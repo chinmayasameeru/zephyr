@@ -5,7 +5,7 @@
 #
 
 config I2C_SEDI
-	bool "Intel SEDI I2C Driver"
+	bool "Intel SEDI I2C driver"
 	default y
 	depends on DT_HAS_INTEL_SEDI_I2C_ENABLED
 	help

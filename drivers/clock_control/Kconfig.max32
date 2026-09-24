@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config CLOCK_CONTROL_MAX32
-	bool "MAX32 Clock Control Driver"
+	bool "MAX32 Clock Control driver"
 	default y
 	depends on DT_HAS_ADI_MAX32_GCR_ENABLED
 	help

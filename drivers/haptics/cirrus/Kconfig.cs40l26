@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig HAPTICS_CS40L26
-	bool "CS40L26/27 Haptics Driver"
+	bool "CS40L26/27 Haptics driver"
 	default y
 	depends on DT_HAS_CIRRUS_CS40L26_ENABLED || \
 		   DT_HAS_CIRRUS_CS40L27_ENABLED

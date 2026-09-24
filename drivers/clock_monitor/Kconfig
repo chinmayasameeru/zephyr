@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig CLOCK_MONITOR
-	bool "Clock Monitor drivers"
+	bool "Clock Monitor driver"
 	help
 	  Enable the clock monitor driver class. Individual back-end drivers
 	  for specific clock monitoring peripherals are selected by their

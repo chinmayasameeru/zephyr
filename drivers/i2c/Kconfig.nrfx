@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig I2C_NRFX
-	bool "nRF TWI nrfx drivers"
+	bool "nRF TWI nrfx driver"
 	default y
 	depends on SOC_FAMILY_NORDIC_NRF
 	depends on MULTITHREADING

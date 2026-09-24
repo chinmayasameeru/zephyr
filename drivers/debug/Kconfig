@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig DEBUG_DRIVER
-	bool "Debug drivers"
+	bool "Debug driver"
 	help
 	  Enable support for debug drivers
 

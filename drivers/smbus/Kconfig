@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig SMBUS
-	bool "System Management Bus (SMBus) drivers"
+	bool "System Management Bus (SMBus) driver"
 	help
 	  Enable SMBus Driver Configuration
 

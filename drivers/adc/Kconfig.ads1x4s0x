@@ -28,7 +28,7 @@ config ADC_ADS1X4S0X_ACQUISITION_THREAD_STACK_SIZE
 	  thread.
 
 config ADC_ADS1X4S0X_GPIO
-	bool "GPIO support"
+	bool "GPIO driver"
 	default n
 	depends on GPIO && ADC_ADS1X4S0X
 	help

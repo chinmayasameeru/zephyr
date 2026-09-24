@@ -25,7 +25,7 @@ choice SPI_AMEBA_OPERATION_MODE
 			Enables interrupt support for AMEBA SPI driver.
 
 	config SPI_AMEBA_DMA
-		bool "AMEBA SPI DMA Support"
+		bool "AMEBA SPI DMA driver"
 		select DMA
 		help
 			Enable the SPI DMA mode.

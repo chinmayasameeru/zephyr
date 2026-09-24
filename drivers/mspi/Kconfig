@@ -9,7 +9,7 @@
 # MSPI Drivers
 #
 menuconfig MSPI
-	bool "Multi-bit Serial Peripheral Interface (MSPI) bus drivers"
+	bool "Multi-bit Serial Peripheral Interface (MSPI) bus driver"
 	help
 	  Enable support for the MSPI hardware bus.
 

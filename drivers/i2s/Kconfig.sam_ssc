@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig I2S_SAM_SSC
-	bool "Atmel SAM MCU family I2S (SSC) Bus Driver"
+	bool "Atmel SAM MCU family I2S (SSC) Bus driver"
 	default y
 	depends on DT_HAS_ATMEL_SAM_SSC_ENABLED
 	select PINCTRL

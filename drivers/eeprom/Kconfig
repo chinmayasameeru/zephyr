@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig EEPROM
-	bool "Electrically Erasable Programmable Read-Only Memory (EEPROM) drivers"
+	bool "Electrically Erasable Programmable Read-Only Memory (EEPROM) driver"
 	help
 	  Enable support for EEPROM hardware.
 

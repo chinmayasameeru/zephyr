@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_SAM0
-	bool "Atmel SAM0 series Watchdog (WDT) Driver"
+	bool "Atmel SAM0 series Watchdog (WDT) driver"
 	default y
 	depends on DT_HAS_ATMEL_SAM0_WATCHDOG_ENABLED
 	select HAS_WDT_DISABLE_AT_BOOT

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_SF32LB
-	bool "SF32LB Watchdog (WDT) Driver"
+	bool "SF32LB Watchdog (WDT) driver"
 	default y
 	depends on DT_HAS_SIFLI_SF32LB_WDT_ENABLED
 	select HAS_WDT_DISABLE_AT_BOOT

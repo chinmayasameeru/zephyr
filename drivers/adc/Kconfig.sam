@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ADC_SAM
-	bool "Atmel SAM series ADC Driver"
+	bool "Atmel SAM series ADC driver"
 	default y
 	depends on DT_HAS_ATMEL_SAM_ADC_ENABLED
 	select PINCTRL

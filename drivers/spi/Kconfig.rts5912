@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SPI_REALTEK_RTS5912
-	bool "REALTEK RTS5912 SPI Driver"
+	bool "REALTEK RTS5912 SPI driver"
 	default y
 	depends on DT_HAS_REALTEK_RTS5912_SPI_ENABLED
 	select PINCTRL

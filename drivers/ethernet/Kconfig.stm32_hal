@@ -181,7 +181,7 @@ config ETH_STM32_HAL_PTP_CLOCK_ADJ_MAX_PCT
 endif # PTP_CLOCK_STM32_HAL
 
 config ETH_STM32_MULTICAST_FILTER
-	bool "Multicast hash filter support"
+	bool "Multicast hash filter driver"
 	help
 	  Enable support for multicast hash filtering in the MAC.
 	  Once enabled the ethernet MAC performs imperfect filtering

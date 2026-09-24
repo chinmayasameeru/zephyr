@@ -15,13 +15,13 @@ menuconfig SPI_STM32
 if SPI_STM32
 
 config SPI_STM32_INTERRUPT
-	bool "STM32 MCU SPI Interrupt Support"
+	bool "STM32 MCU SPI Interrupt driver"
 	default y if SPI_RTIO
 	help
 	  Enable Interrupt support for the SPI Driver of STM32 family.
 
 config SPI_STM32_DMA
-	bool "STM32 MCU SPI DMA Support"
+	bool "STM32 MCU SPI DMA driver"
 	select DMA
 	select CACHE_MANAGEMENT if DCACHE
 	help

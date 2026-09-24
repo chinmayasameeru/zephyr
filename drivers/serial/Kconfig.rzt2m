@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config UART_RZT2M
-	bool "Renesas RZ/T2M UART Driver"
+	bool "Renesas RZ/T2M UART driver"
 	default y
 	depends on DT_HAS_RENESAS_RZT2M_UART_ENABLED
 	select SERIAL_HAS_DRIVER

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig TEE
-	bool "Trusted Environment Drivers"
+	bool "Trusted Environment driver"
 	help
 	  Include TEE drivers in system config
 

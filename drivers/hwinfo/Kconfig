@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig HWINFO
-	bool "Hardware information drivers"
+	bool "Hardware information driver"
 	help
 	  Enable hwinfo driver.
 

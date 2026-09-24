@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig PECI
-	bool "Platform Environment Control Interface (PECI) drivers"
+	bool "Platform Environment Control Interface (PECI) driver"
 	help
 	  Include PECI drivers in system config.
 

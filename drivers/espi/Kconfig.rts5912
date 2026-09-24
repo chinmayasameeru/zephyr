@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ESPI_RTS5912
-	bool "Realtek RTS5912 eSPI Driver"
+	bool "Realtek RTS5912 eSPI driver"
 	default y
 	depends on DT_HAS_REALTEK_RTS5912_ESPI_ENABLED
 	help

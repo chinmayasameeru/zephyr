@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_TI_TPS382X
-	bool "External TI TPS382x Watchdog (WDT) Driver"
+	bool "External TI TPS382x Watchdog (WDT) driver"
 	default y
 	depends on DT_HAS_TI_TPS382X_ENABLED
 	depends on GPIO

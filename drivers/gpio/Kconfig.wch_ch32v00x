@@ -7,7 +7,7 @@ config GPIO_WCH_GPIO
 	default y
 
 config GPIO_WCH_GPIO_INTERRUPTS
-	bool "Interrupt support"
+	bool "Interrupt driver"
 	depends on GPIO_WCH_GPIO
 	depends on DT_HAS_WCH_EXTI_ENABLED
 	default y

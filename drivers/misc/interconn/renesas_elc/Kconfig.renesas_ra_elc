@@ -4,7 +4,7 @@
 # Renesas RA Event Link Controller Option
 
 config RENESAS_RA_ELC
-	bool "Renesas RA Event Link Controller Driver"
+	bool "Renesas RA Event Link Controller driver"
 	depends on DT_HAS_RENESAS_RA_ELC_ENABLED
 	select USE_RA_FSP_ELC
 	default y

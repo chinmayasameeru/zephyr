@@ -15,18 +15,18 @@ config SPI_RENESAS_RA
 if SPI_RENESAS_RA
 
 config SPI_INTERRUPT
-	bool "RA MCU SPI Interrupt Support"
+	bool "RA MCU SPI Interrupt driver"
 	help
 	  Enable Interrupt support for the SPI Driver of RA family.
 
 config SPI_RA_DTC
-	bool "RA MCU SPI DTC Support"
+	bool "RA MCU SPI DTC driver"
 	select USE_RA_FSP_DTC
 	help
 	  Enable the SPI DTC mode for SPI instances
 
 config SPI_USE_HW_SS
-	bool "RA MCU SPI Hardware Peripheral Select support"
+	bool "RA MCU SPI Hardware Peripheral Select driver"
 	default y
 	depends on !(SOC_SERIES_RA2A1 || SOC_SERIES_RA2L1 || SOC_SERIES_RA4M1)
 	help
@@ -47,13 +47,13 @@ config SPI_RENESAS_RA_SCI
 if SPI_RENESAS_RA_SCI
 
 config SPI_RENESAS_RA_SCI_INTERRUPT
-	bool "RENESAS RA SCI SPI Interrupt Support"
+	bool "RENESAS RA SCI SPI Interrupt driver"
 	depends on SPI_ASYNC
 	help
 	  Enable Interrupt support for the SCI SPI Driver of RA family.
 
 config SPI_RENESAS_RA_SCI_DTC
-	bool "RA MCU SCI SPI DTC Support"
+	bool "RA MCU SCI SPI DTC driver"
 	depends on SPI_RENESAS_RA_SCI_INTERRUPT
 	select USE_RA_FSP_DTC
 	help
@@ -80,7 +80,7 @@ config SPI_RENESAS_RA_SCI_B_INTERRUPT
 	  Enable Interrupt support for the SCI B SPI Driver of RA family.
 
 config SPI_RENESAS_RA_SCI_B_DMAC
-	bool "RA MCU SCI B SPI DMAC Support"
+	bool "RA MCU SCI B SPI DMAC driver"
 	default $(dt_compat_any_has_prop,$(DT_COMPAT_RENESAS_RA_SPI_SCI_B),dmas)
 	depends on SPI_RENESAS_RA_SCI_B_INTERRUPT
 	select USE_RA_FSP_DMA
@@ -89,7 +89,7 @@ config SPI_RENESAS_RA_SCI_B_DMAC
 	  SCI B SPI Driver of RA family.
 
 config SPI_RENESAS_RA_SCI_B_DTC
-	bool "RA MCU SCI B SPI DTC Support"
+	bool "RA MCU SCI B SPI DTC driver"
 	default ($(dt_compat_any_has_prop,$(DT_COMPAT_RENESAS_RA_SPI_SCI_B),rx-dtc,True) || \
 		$(dt_compat_any_has_prop,$(DT_COMPAT_RENESAS_RA_SPI_SCI_B),tx-dtc,True))
 	depends on SPI_RENESAS_RA_SCI_B_INTERRUPT

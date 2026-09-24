@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_GECKO
-	bool "Gecko series Watchdog (WDOG) Driver"
+	bool "Gecko series Watchdog (WDOG) driver"
 	default y
 	depends on DT_HAS_SILABS_GECKO_WDOG_ENABLED
 	select HAS_WDT_DISABLE_AT_BOOT

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_SIFIVE
-	bool "SiFive Watchdog (WDT) Driver"
+	bool "SiFive Watchdog (WDT) driver"
 	default y
 	depends on DT_HAS_SIFIVE_WDT_ENABLED
 	select HAS_WDT_DISABLE_AT_BOOT

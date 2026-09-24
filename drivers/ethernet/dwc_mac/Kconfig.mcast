@@ -21,7 +21,7 @@ config ETH_DWC_ETHER_MULTICAST_FILTER_PERFECT_SUPPORTED
 	  the station address.
 
 config ETH_DWC_ETHER_MULTICAST_FILTER
-	bool "Multicast filter support"
+	bool "Multicast filter driver"
 	depends on ETH_DWC_ETHER_MULTICAST_FILTER_HASH_SUPPORTED || \
 		ETH_DWC_ETHER_MULTICAST_FILTER_PERFECT_SUPPORTED
 	depends on NET_L2_ETHERNET

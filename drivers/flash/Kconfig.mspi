@@ -122,7 +122,7 @@ endmenu
 if FLASH_MSPI
 
 config FLASH_MSPI_HANDLE_CACHE
-	bool "Turn on cache handling in flash peripheral drivers"
+	bool "Turn on cache handling in flash peripheral driver"
 	default y
 	depends on CACHE_MANAGEMENT && DCACHE
 	help

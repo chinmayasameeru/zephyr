@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig MBOX
-	bool "Multi-Channel Inter-Processor Mailbox (MBOX) drivers"
+	bool "Multi-Channel Inter-Processor Mailbox (MBOX) driver"
 	help
 	  Include multi-channel interrupt-based inter-processor mailboxes
 	  drivers in system configuration

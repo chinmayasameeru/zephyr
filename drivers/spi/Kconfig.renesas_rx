@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SPI_RENESAS_RX
-	bool "Renesas RX Series SPI Driver"
+	bool "Renesas RX Series SPI driver"
 	default y
 	depends on DT_HAS_RENESAS_RX_RSPI_ENABLED
 	select USE_RX_RDP_RSPI
@@ -12,13 +12,13 @@ config SPI_RENESAS_RX
 if SPI_RENESAS_RX
 
 config SPI_RENESAS_RX_INTERRUPT
-	bool "RX MCU RSPI Interrupt Support"
+	bool "RX MCU RSPI Interrupt driver"
 	default y
 	help
 	  Enable Interrupt Support for the RSPI Driver of RX family.
 
 config SPI_RENESAS_RX_USE_HW_SS
-	bool "RX MCU RSPI Hardware Chip Select support"
+	bool "RX MCU RSPI Hardware Chip Select driver"
 	default y
 	help
 	  Use Chip Select pin instead of software Chip Select.

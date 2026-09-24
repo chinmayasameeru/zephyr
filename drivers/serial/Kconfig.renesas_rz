@@ -46,7 +46,7 @@ config UART_RENESAS_RZG_INIT_DELAY_MS
 endif
 
 config UART_RENESAS_RZA2M_SCIF
-	bool "Renesas A2M SCIF UART Driver"
+	bool "Renesas A2M SCIF UART driver"
 	default y
 	depends on DT_HAS_RENESAS_RZA2M_SCIF_UART_ENABLED
 	select SERIAL_HAS_DRIVER

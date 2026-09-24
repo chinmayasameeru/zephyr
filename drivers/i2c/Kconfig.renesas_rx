@@ -15,7 +15,7 @@ config I2C_RENESAS_RX_RIIC
 if I2C_RENESAS_RX_RIIC
 
 config I2C_RENESAS_RX_CALLBACK
-	bool "Renesas RX I2C Callback Support"
+	bool "Renesas RX I2C Callback driver"
 	depends on I2C_CALLBACK
 	default y
 	help

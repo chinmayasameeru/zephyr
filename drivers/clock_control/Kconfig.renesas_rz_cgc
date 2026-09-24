@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config CLOCK_CONTROL_RENESAS_RZ_CGC
-	bool "Renesas RZ Clock Control Driver"
+	bool "Renesas RZ Clock Control driver"
 	default y
 	depends on DT_HAS_RENESAS_RZ_CGC_ENABLED
 	select USE_RZ_FSP_CGC

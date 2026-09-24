@@ -7,7 +7,7 @@
 # Setting shared by different subsystems
 
 menuconfig CONSOLE
-	bool "Console drivers"
+	bool "Console driver"
 
 if CONSOLE
 

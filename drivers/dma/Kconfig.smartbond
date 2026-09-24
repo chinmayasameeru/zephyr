@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config DMA_SMARTBOND
-	bool "Smartbond DMA Accelerator Driver"
+	bool "Smartbond DMA Accelerator driver"
 	depends on DT_HAS_RENESAS_SMARTBOND_DMA_ENABLED
 	default y
 	help

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config MCUX_SDIF
-	bool "NXP MCUX SDIF Driver"
+	bool "NXP MCUX SDIF driver"
 	default y
 	depends on DT_HAS_NXP_LPC_SDIF_ENABLED
 	select SDHC_SUPPORTS_NATIVE_MODE

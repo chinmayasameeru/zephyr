@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config HAPTICS_TM6605
-	bool "TM6605 Haptics Driver"
+	bool "TM6605 Haptics driver"
 	default y
 	depends on DT_HAS_TITANMEC_TM6605_ENABLED
 	select I2C

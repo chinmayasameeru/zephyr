@@ -4,7 +4,7 @@
 # Top-level configuration file for LED drivers.
 
 menuconfig LED
-	bool "Light-Emitting Diode (LED) drivers"
+	bool "Light-Emitting Diode (LED) driver"
 	help
 	  Include LED drivers in the system configuration.
 

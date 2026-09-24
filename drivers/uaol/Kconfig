@@ -7,7 +7,7 @@
 # UAOL options
 #
 menuconfig UAOL
-	bool "UAOL drivers"
+	bool "UAOL driver"
 	help
 	  Enable support for USB Audio Offload Link (UAOL) drivers.
 

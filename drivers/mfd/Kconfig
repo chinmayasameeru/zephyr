@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig MFD
-	bool "Multi-function device (MFD) drivers"
+	bool "Multi-function device (MFD) driver"
 	help
 	  Include drivers for multi-function devices
 

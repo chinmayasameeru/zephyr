@@ -7,7 +7,7 @@
 # DAI Drivers
 #
 menuconfig DAI
-	bool "Digital Audio Interface (DAI) drivers"
+	bool "Digital Audio Interface (DAI) driver"
 	help
 	  Enable support for the DAI interface drivers.
 

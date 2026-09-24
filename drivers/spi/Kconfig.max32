@@ -12,12 +12,12 @@ config SPI_MAX32
 if SPI_MAX32
 
 config SPI_MAX32_INTERRUPT
-	bool "MAX32 MCU SPI Interrupt Support"
+	bool "MAX32 MCU SPI Interrupt driver"
 	help
 	  Enable interrupt support for MAX32 MCU SPI driver.
 
 config SPI_MAX32_DMA
-	bool "MAX32 MCU SPI DMA Support"
+	bool "MAX32 MCU SPI DMA driver"
 	select DMA
 	select CACHE_MANAGEMENT if DCACHE
 	select SPI_MAX32_INTERRUPT if SPI_MAX32_RTIO
@@ -25,7 +25,7 @@ config SPI_MAX32_DMA
 	  Enable DMA support for MAX32 MCU SPI driver.
 
 config SPI_MAX32_RTIO
-	bool "MAX32 SPI RTIO Support"
+	bool "MAX32 SPI RTIO driver"
 	default y if SPI_RTIO
 	depends on !SPI_ASYNC
 	select SPI_MAX32_INTERRUPT

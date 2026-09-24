@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig IEEE802154_ESP32
-	bool "ESP32 series IEEE 802.15.4 Driver"
+	bool "ESP32 series IEEE 802.15.4 driver"
 	default y
 	depends on DT_HAS_ESPRESSIF_ESP32_IEEE802154_ENABLED
 

@@ -7,7 +7,7 @@ module-str = i3c_stm32
 
 source "subsys/logging/Kconfig.template.log_config"
 config I3C_STM32
-	bool "STM32 I3C driver support"
+	bool "STM32 I3C driver driver"
 	depends on DT_HAS_ST_STM32_I3C_ENABLED
 	select I3C_IBI_WORKQUEUE if I3C_USE_IBI && I3C_CONTROLLER
 	select PINCTRL
@@ -22,7 +22,7 @@ config I3C_STM32_COMBINED_INTERRUPT
 	default y if SOC_SERIES_STM32MP2X
 
 config I3C_STM32_DMA
-	bool "STM32 I3C DMA driver support"
+	bool "STM32 I3C DMA driver driver"
 	select DMA
 	help
 	  Enables support for I3C DMA mode on STM32 microcontrollers.

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig AUDIO
-	bool "Audio drivers"
+	bool "Audio driver"
 	help
 	  Enable support for Audio
 
@@ -13,7 +13,7 @@ if AUDIO
 # Audio Codec options
 #
 menuconfig AUDIO_CODEC
-	bool "Audio Codec Drivers"
+	bool "Audio Codec driver"
 	help
 	  Enable Audio Codec Driver Configuration
 
@@ -56,7 +56,7 @@ source "drivers/audio/Kconfig.wm8962"
 endif # AUDIO_CODEC
 
 menuconfig AUDIO_DMIC
-	bool "Digital Microphone (Audio) Drivers"
+	bool "Digital Microphone (Audio) driver"
 	help
 	  Enable Digital Microphone Driver Configuration
 

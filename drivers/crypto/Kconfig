@@ -7,7 +7,7 @@
 # CRYPTO options
 #
 menuconfig CRYPTO
-	bool "Crypto drivers"
+	bool "Crypto driver"
 
 if CRYPTO
 

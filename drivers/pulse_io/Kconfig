@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig PULSE_IO
-	bool "Pulse IO drivers"
+	bool "Pulse IO driver"
 	help
 	  Enable support for the Pulse IO subsystem, a vendor-neutral
 	  abstraction for hardware that generates and captures timed

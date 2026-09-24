@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_ADI_MAX42500
-	bool "ADI MAX42500 Watchdog (WDT) Driver"
+	bool "ADI MAX42500 Watchdog (WDT) driver"
 	default y
 	depends on DT_HAS_ADI_MAX42500_WATCHDOG_ENABLED
 	select I2C

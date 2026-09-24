@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config BBRAM_EMUL
-	bool "Battery-backed RAM emulated drivers"
+	bool "Battery-backed RAM emulated driver"
 	default y
 	depends on DT_HAS_ZEPHYR_BBRAM_EMUL_ENABLED
 	help

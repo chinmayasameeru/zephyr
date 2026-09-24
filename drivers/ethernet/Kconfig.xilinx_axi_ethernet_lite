@@ -6,7 +6,7 @@
 #
 
 menuconfig ETH_XILINX_AXI_ETHERNET_LITE
-	bool "Xilinx AXI Ethernet Lite Driver"
+	bool "Xilinx AXI Ethernet Lite driver"
 	default y
 	depends on DT_HAS_XLNX_XPS_ETHERNETLITE_3_00_A_MAC_ENABLED || DT_HAS_XLNX_XPS_ETHERNETLITE_1_00_A_MAC_ENABLED
 	depends on LITTLE_ENDIAN # byte order operations might break for BE

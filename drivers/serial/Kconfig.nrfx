@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig UART_NRFX
-	bool "nRF UART nrfx drivers"
+	bool "nRF UART nrfx driver"
 	default y
 	select SERIAL_HAS_DRIVER
 	select SERIAL_SUPPORT_INTERRUPT

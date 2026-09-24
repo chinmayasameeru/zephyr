@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig REGULATOR
-	bool "Regulator drivers"
+	bool "Regulator driver"
 	help
 	  Include drivers for current/voltage regulators in system config
 

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config RENESAS_RA_DRW
-	bool "Renesas RA DRW Driver"
+	bool "Renesas RA DRW driver"
 	depends on DT_HAS_RENESAS_RA_DRW_ENABLED
 	select USE_RA_FSP_DRW
 	default y

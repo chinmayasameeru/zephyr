@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SPI_ITE_IT51XXX
-	bool "ITE IT51XXX SPI Driver"
+	bool "ITE IT51XXX SPI driver"
 	default y
 	depends on DT_HAS_ITE_IT51XXX_SPI_ENABLED
 	select PINCTRL
@@ -12,7 +12,7 @@ config SPI_ITE_IT51XXX
 if SPI_ITE_IT51XXX
 
 config SPI_ITE_IT51XXX_FIFO_MODE
-	bool "ITE IT51XXX Shared/Group FIFO Mode Support"
+	bool "ITE IT51XXX Shared/Group FIFO Mode driver"
 	select SOC_IT51XXX_CPU_IDLE_GATING
 	default y
 	help

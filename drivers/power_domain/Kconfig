@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig POWER_DOMAIN
-	bool "Power domain drivers"
+	bool "Power domain driver"
 	help
 	  Include drivers for power domains in system config
 

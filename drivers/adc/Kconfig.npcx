@@ -16,7 +16,7 @@ config ADC_NPCX
 if ADC_NPCX
 
 config ADC_NPCX_CMP_V1
-	bool "ADC comparator version 1 support"
+	bool "ADC comparator version 1 driver"
 	default y
 	depends on $(dt_compat_any_has_prop,$(DT_COMPAT_NUVOTON_NPCX_ADC),support-npcxn-v1,True) || \
 		   $(dt_compat_any_has_prop,$(DT_COMPAT_NUVOTON_NPCX_ADC),support-npcxn-v2,True)
@@ -24,7 +24,7 @@ config ADC_NPCX_CMP_V1
 	  This option enables ADC comparator V1 support.
 
 config ADC_NPCX_CMP_V2
-	bool "ADC comparator version 2 support"
+	bool "ADC comparator version 2 driver"
 	default y
 	depends on $(dt_compat_any_has_prop,$(DT_COMPAT_NUVOTON_NPCX_ADC),support-npcxn-v3,True)
 	help

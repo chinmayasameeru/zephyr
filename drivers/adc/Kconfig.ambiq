@@ -3,7 +3,7 @@
 # Copyright (c) 2023 Ambiq Micro Inc. <www.ambiq.com>
 
 config ADC_AMBIQ
-	bool "Ambiq Adc Driver"
+	bool "Ambiq Adc driver"
 	default y
 	depends on DT_HAS_AMBIQ_ADC_ENABLED
 	select AMBIQ_HAL

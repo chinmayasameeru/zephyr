@@ -15,12 +15,12 @@ config SPI_RENESAS_RA8
 if SPI_RENESAS_RA8
 
 config SPI_B_INTERRUPT
-	bool "RA MCU SPI B Interrupt Support"
+	bool "RA MCU SPI B Interrupt driver"
 	help
 	  Enable Interrupt support for the SPI B Driver of RA family.
 
 config SPI_B_DMAC
-	bool "RA MCU SPI DMAC Support"
+	bool "RA MCU SPI DMAC driver"
 	default $(dt_compat_any_has_prop,$(DT_COMPAT_RENESAS_RA8_SPI_B),dmas)
 	select SPI_B_INTERRUPT
 	select USE_RA_FSP_DMA
@@ -30,7 +30,7 @@ config SPI_B_DMAC
 	  SPI data transfers.
 
 config SPI_B_RA_DTC
-	bool "RA MCU SPI DTC Support"
+	bool "RA MCU SPI DTC driver"
 	default $(dt_compat_any_has_prop,$(DT_COMPAT_RENESAS_RA8_SPI_B),rx-dtc,True) || \
 		$(dt_compat_any_has_prop,$(DT_COMPAT_RENESAS_RA8_SPI_B),tx-dtc,True)
 	select SPI_B_INTERRUPT
@@ -39,7 +39,7 @@ config SPI_B_RA_DTC
 	  Enable the SPI DTC mode for SPI instances
 
 config SPI_B_USE_HW_SS
-	bool "RA MCU SPI B Hardware Chip Select support"
+	bool "RA MCU SPI B Hardware Chip Select driver"
 	default y
 	help
 	  Use Chip Select pin instead of software Chip Select.

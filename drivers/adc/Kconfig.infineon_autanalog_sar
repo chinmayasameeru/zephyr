@@ -15,7 +15,7 @@ config ADC_INFINEON_AUTANALOG_SAR
 	  This option enables the ADC driver for Infineon MCUs using AutAnalog SAR ADC.
 
 config ADC_INFINEON_AUTANALOG_SAR_STREAM
-	bool "Infineon AutAnalog SAR ADC stream support"
+	bool "Infineon AutAnalog SAR ADC stream driver"
 	default y
 	depends on ADC_INFINEON_AUTANALOG_SAR
 	depends on ADC_STREAM

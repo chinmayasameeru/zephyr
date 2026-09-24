@@ -13,7 +13,7 @@ menuconfig I2C_MCUX_FLEXCOMM
 	  Enable the mcux flexcomm i2c driver.
 
 config I2C_MCUX_FLEXCOMM_BUS_RECOVERY
-	bool "Bus recovery support"
+	bool "Bus recovery driver"
 	default y if I2C_BUS_RECOVERY
 	default y if $(dt_compat_any_has_prop,$(DT_COMPAT_NXP_LPC_I2C),recover-bus-on-init,True)
 	depends on I2C_MCUX_FLEXCOMM && PINCTRL

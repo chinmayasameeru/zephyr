@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config DMA_MCUX_SMARTDMA
-	bool "MCUX SmartDMA Driver"
+	bool "MCUX SmartDMA driver"
 	default y
 	depends on DT_HAS_NXP_SMARTDMA_ENABLED
 	select NXP_INPUTMUX

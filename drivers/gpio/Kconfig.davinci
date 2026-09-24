@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config GPIO_DAVINCI
-	bool "Davinci GPIO Driver"
+	bool "Davinci GPIO driver"
 	default y
 	depends on DT_HAS_TI_DAVINCI_GPIO_ENABLED
 	select PINCTRL

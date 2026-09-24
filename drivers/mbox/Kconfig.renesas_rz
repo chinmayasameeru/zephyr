@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config MBOX_RENESAS_RZ_MHU
-	bool "Renesas RZ MHU Driver"
+	bool "Renesas RZ MHU driver"
 	default y
 	depends on DT_HAS_RENESAS_RZ_MHU_MBOX_ENABLED
 	select USE_RZ_FSP_MHU

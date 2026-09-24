@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ENTROPY_MAX32_TRNG
-	bool "ADI MAX32XXX MCU Family True Random Number Generator (TRNG) Driver"
+	bool "ADI MAX32XXX MCU Family True Random Number Generator (TRNG) driver"
 	default y
 	depends on DT_HAS_ADI_MAX32_TRNG_ENABLED
 	select ENTROPY_HAS_DRIVER

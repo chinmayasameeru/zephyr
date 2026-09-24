@@ -26,7 +26,7 @@ config UART_RA_SCI_UART_FIFO_ENABLE
 endif
 
 config UART_RENESAS_RA_SAU
-	bool "Renesas RA SAU UART Driver"
+	bool "Renesas RA SAU UART driver"
 	default y
 	depends on DT_HAS_RENESAS_RA_UART_SAU_ENABLED
 	select SERIAL_HAS_DRIVER

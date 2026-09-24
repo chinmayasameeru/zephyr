@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig ETH_DRIVER
-	bool "Ethernet drivers"
+	bool "Ethernet driver"
 	depends on NETWORKING
 	depends on !NET_TEST
 

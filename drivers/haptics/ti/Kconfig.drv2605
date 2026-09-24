@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config HAPTICS_DRV2605
-	bool "DRV2605 Haptics Driver"
+	bool "DRV2605 Haptics driver"
 	default y
 	depends on DT_HAS_TI_DRV2605_ENABLED
 	select I2C

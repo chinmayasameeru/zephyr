@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_CRSAS_MA2
-	bool "CRSAS-MA2 Watchdog Driver"
+	bool "CRSAS-MA2 Watchdog driver"
 	default y
 	select CLOCK_CONTROL
 	depends on DT_HAS_ARM_CRSAS_MA2_WATCHDOG_ENABLED

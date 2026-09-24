@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig PM_CPU_OPS
-	bool "CPU power management drivers"
+	bool "CPU power management driver"
 	help
 	  Enable CPU power management drivers configuration
 

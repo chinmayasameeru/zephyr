@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig OPAMP
-	bool "Operational Amplifier (opamp) drivers"
+	bool "Operational Amplifier (opamp) driver"
 	help
 	  Enable opamp driver configuration.
 

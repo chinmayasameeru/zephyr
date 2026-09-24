@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ADC_RENESAS_RZ
-	bool "Renesas RZ ADC Driver"
+	bool "Renesas RZ ADC driver"
 	default y
 	depends on DT_HAS_RENESAS_RZ_ADC_ENABLED
 	select USE_RZ_FSP_ADC
@@ -12,7 +12,7 @@ config ADC_RENESAS_RZ
 	  Enable the RZ ADC driver.
 
 config ADC_RENESAS_RZ_ADC_C
-	bool "Renesas RZ ADC-C Driver"
+	bool "Renesas RZ ADC-C driver"
 	default y
 	depends on DT_HAS_RENESAS_RZ_ADC_C_ENABLED
 	select USE_RZ_FSP_ADC_C
@@ -20,7 +20,7 @@ config ADC_RENESAS_RZ_ADC_C
 	  Enable the RZ ADC-C driver.
 
 config ADC_RENESAS_RZ_ADC_E
-	bool "Renesas RZ ADC-E Driver"
+	bool "Renesas RZ ADC-E driver"
 	default y
 	depends on DT_HAS_RENESAS_RZ_ADC_E_ENABLED
 	select USE_RZ_FSP_ADC_E
@@ -28,7 +28,7 @@ config ADC_RENESAS_RZ_ADC_E
 	  Enable the RZ ADC-E driver.
 
 config ADC_RENESAS_RZA2M
-	bool "Renesas A2M ADC Driver"
+	bool "Renesas A2M ADC driver"
 	default y
 	depends on DT_HAS_RENESAS_RZA2M_ADC_ENABLED
 	select PINCTRL

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config DMA_INTEL_ADSP_HDA_HOST_IN
-	bool "Intel ADSP HDA Host In DMA drivers"
+	bool "Intel ADSP HDA Host In DMA driver"
 	default y
 	depends on DT_HAS_INTEL_ADSP_HDA_HOST_IN_ENABLED
 	depends on DMA
@@ -13,7 +13,7 @@ config DMA_INTEL_ADSP_HDA_HOST_IN
 	  Intel ADSP Host HDA DMA driver.
 
 config DMA_INTEL_ADSP_HDA_HOST_OUT
-	bool "Intel ADSP HDA Host Out DMA drivers"
+	bool "Intel ADSP HDA Host Out DMA driver"
 	default y
 	depends on DT_HAS_INTEL_ADSP_HDA_HOST_OUT_ENABLED
 	select DMA_INTEL_ADSP_HDA
@@ -21,7 +21,7 @@ config DMA_INTEL_ADSP_HDA_HOST_OUT
 	  Intel ADSP Host HDA DMA driver.
 
 config DMA_INTEL_ADSP_HDA_LINK_IN
-	bool "Intel ADSP HDA Link In DMA drivers"
+	bool "Intel ADSP HDA Link In DMA driver"
 	default y
 	depends on DT_HAS_INTEL_ADSP_HDA_LINK_IN_ENABLED
 	select DMA_INTEL_ADSP_HDA
@@ -29,7 +29,7 @@ config DMA_INTEL_ADSP_HDA_LINK_IN
 	  Intel ADSP Link In HDA DMA driver.
 
 config DMA_INTEL_ADSP_HDA_LINK_OUT
-	bool "Intel ADSP HDA Link Out DMA drivers"
+	bool "Intel ADSP HDA Link Out DMA driver"
 	default y
 	depends on DT_HAS_INTEL_ADSP_HDA_LINK_OUT_ENABLED
 	select DMA_INTEL_ADSP_HDA

@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig I3C
-	bool "Improved Inter-Integrated Circuit (I3C) bus drivers"
+	bool "Improved Inter-Integrated Circuit (I3C) bus driver"
 	help
 	  Enable I3C Driver Configuration
 

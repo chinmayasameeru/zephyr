@@ -12,7 +12,7 @@ config SPI_SAM0
 	  Enable support for the SAM0 SERCOM SPI driver.
 
 config SPI_SAM0_DMA
-	bool "Atmel SAM0 dma support"
+	bool "Atmel SAM0 dma driver"
 	default y
 	depends on SPI_SAM0
 	depends on $(dt_compat_any_has_prop,$(DT_COMPAT_ATMEL_SAM0_SPI),dmas)

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig VIDEO_DRIVERS
-	bool "Video drivers"
+	bool "Video driver"
 	help
 	  Enable support for video drivers, typically used from the video subsystem.
 

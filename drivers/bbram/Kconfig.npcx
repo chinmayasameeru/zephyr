@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config BBRAM_NPCX
-	bool "Nuvoton NPCX embedded controller (EC) Battery-backed RAM drivers"
+	bool "Nuvoton NPCX embedded controller (EC) Battery-backed RAM driver"
 	default y
 	depends on DT_HAS_NUVOTON_NPCX_BBRAM_ENABLED
 	help

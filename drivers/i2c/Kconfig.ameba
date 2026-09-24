@@ -13,14 +13,14 @@ config I2C_AMEBA
 	  Enables the AMEBA I2C driver
 
 config I2C_AMEBA_INTERRUPT
-	bool "Ameba I2C Interrupt Support"
+	bool "Ameba I2C Interrupt driver"
 	depends on I2C_AMEBA
 	default n
 	help
 	  Enable Interrupt support for the I2C Driver
 
 config I2C_ASYNC_API
-	bool "Ameba I2C DMA Support"
+	bool "Ameba I2C DMA driver"
 	depends on I2C_AMEBA
 	select DMA
 	default n

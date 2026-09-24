@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config MBOX_RENESAS_RCAR_MFIS
-	bool "Renesas R-Car MFIS Driver"
+	bool "Renesas R-Car MFIS driver"
 	default y
 	depends on DT_HAS_RENESAS_RCAR_MFIS_MBOX_ENABLED
 	help

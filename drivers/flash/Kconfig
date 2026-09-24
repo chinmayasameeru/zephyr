@@ -106,7 +106,7 @@ config FLASH_JESD216
 	 devices to enable building a common support module.
 
 menuconfig FLASH
-	bool "Flash drivers"
+	bool "Flash driver"
 	help
 	  Enable support for the flash hardware.
 

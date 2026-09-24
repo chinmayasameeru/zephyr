@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig LED_STRIP
-	bool "Light-Emitting Diode (LED) strip drivers"
+	bool "Light-Emitting Diode (LED) strip driver"
 	help
 	  Include LED strip drivers in the system configuration.
 

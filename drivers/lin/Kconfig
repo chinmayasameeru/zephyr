@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig LIN
-	bool "Local Interconnect Network (LIN) drivers"
+	bool "Local Interconnect Network (LIN) driver"
 	help
 	  LIN (Local Interconnect Network) driver subsystem.
 

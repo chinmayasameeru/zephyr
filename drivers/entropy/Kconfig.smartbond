@@ -5,7 +5,7 @@
 
 
 config ENTROPY_SMARTBOND_TRNG
-	bool "Renesas Smartbond MCU Family True Random Number Generator (TRNG) Driver"
+	bool "Renesas Smartbond MCU Family True Random Number Generator (TRNG) driver"
 	default y
 	depends on DT_HAS_RENESAS_SMARTBOND_TRNG_ENABLED
 	select ENTROPY_HAS_DRIVER

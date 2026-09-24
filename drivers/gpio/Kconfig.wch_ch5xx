@@ -7,7 +7,7 @@ config GPIO_WCH_CH5XX
 	default y
 
 config GPIO_WCH_CH5XX_INTERRUPTS
-	bool "Interrupt support"
+	bool "Interrupt driver"
 	depends on GPIO_WCH_CH5XX
 	depends on DT_HAS_WCH_PFIC_ENABLED
 	default y

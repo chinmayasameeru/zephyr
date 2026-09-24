@@ -12,13 +12,13 @@ config SPI_BEE
 
 if SPI_BEE
 config SPI_BEE_INTERRUPT
-	bool "BEE MCU SPI Interrupt Support"
+	bool "BEE MCU SPI Interrupt driver"
 	default y if SPI_ASYNC
 	help
 	  Enable the interrupt driven mode for SPI.
 
 config SPI_BEE_DMA
-	bool "BEE MCU SPI DMA Support"
+	bool "BEE MCU SPI DMA driver"
 	select DMA
 	select SPI_BEE_INTERRUPT
 	select HAL_REALTEK_BEE_DMA

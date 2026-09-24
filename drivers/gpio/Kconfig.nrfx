@@ -9,7 +9,7 @@ menuconfig GPIO_NRFX
 	  Enable GPIO driver for nRF line of MCUs.
 
 config GPIO_NRFX_INTERRUPT
-	bool "Interrupt support"
+	bool "Interrupt driver"
 	depends on GPIO_NRFX
 	select NRFX_GPIOTE
 	default y

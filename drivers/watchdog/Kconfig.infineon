@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_INFINEON_CAT1
-	bool "Infineon CAT1 Watchdog Driver"
+	bool "Infineon CAT1 Watchdog driver"
 	default y
 	depends on DT_HAS_INFINEON_WATCHDOG_ENABLED
 	select USE_INFINEON_WDT

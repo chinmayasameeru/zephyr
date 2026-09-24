@@ -27,7 +27,7 @@ config I2C_INFINEON_CAT1_PDL
 	  This option enables the PDL based I2C driver for the Infineon CAT1 family.
 
 config I2C_INFINEON_BUS_RECOVERY
-	bool "Bus recovery support"
+	bool "Bus recovery driver"
 	default y
 	depends on USE_INFINEON_I2C
 	depends on $(dt_compat_any_has_prop,$(DT_COMPAT_INFINEON_I2C),scl-gpios)

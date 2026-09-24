@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig DISPLAY
-	bool "Display controller drivers"
+	bool "Display controller driver"
 	help
 	  Enable display drivers
 

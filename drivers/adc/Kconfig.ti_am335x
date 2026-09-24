@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ADC_TI_AM335X
-	bool "TI ADC Driver"
+	bool "TI ADC driver"
 	default y
 	depends on DT_HAS_TI_AM335X_ADC_ENABLED
 	help

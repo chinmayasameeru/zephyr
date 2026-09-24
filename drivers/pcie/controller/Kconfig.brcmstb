@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config PCIE_BRCMSTB
-	bool "Broadcom Set-top box SoC PCIe Driver"
+	bool "Broadcom Set-top box SoC PCIe driver"
 	default y
 	depends on DT_HAS_BRCM_BRCMSTB_PCIE_ENABLED
 	help

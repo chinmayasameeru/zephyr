@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config REGULATOR_RTS5817
-	bool "RTS5817 Regulator Driver"
+	bool "RTS5817 Regulator driver"
 	default y
 	depends on DT_HAS_REALTEK_RTS5817_REGULATOR_ENABLED
 	select SYSCON

@@ -3,7 +3,7 @@
 # Copyright (c) 2025 STMicroelectronics
 
 menuconfig IEEE802154_STM32WBA
-	bool "STM32WBA series IEEE 802.15.4 Driver"
+	bool "STM32WBA series IEEE 802.15.4 driver"
 	default y
 	depends on DT_HAS_ST_STM32WBA_IEEE802154_ENABLED
 	depends on ZEPHYR_HAL_STM32_MODULE_BLOBS || BUILD_ONLY_NO_BLOBS

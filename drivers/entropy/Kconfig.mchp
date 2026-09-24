@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ENTROPY_MCHP_TRNG_G1
-	bool "Microchip MCHP G1 Entropy Driver"
+	bool "Microchip MCHP G1 Entropy driver"
 	default y
 	depends on DT_HAS_MICROCHIP_TRNG_G1_ENTROPY_ENABLED
 	select ENTROPY_HAS_DRIVER
@@ -10,7 +10,7 @@ config ENTROPY_MCHP_TRNG_G1
 	  This option enables Entropy driver for group (g1).
 
 config ENTROPY_MCHP_TRNG_G2
-	bool "Microchip MCHP G2 Entropy Driver"
+	bool "Microchip MCHP G2 Entropy driver"
 	default y
 	depends on DT_HAS_MICROCHIP_TRNG_G2_ENTROPY_ENABLED
 	select ENTROPY_HAS_DRIVER

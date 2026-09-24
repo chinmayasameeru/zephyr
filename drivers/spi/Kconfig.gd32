@@ -12,14 +12,14 @@ config SPI_GD32
 if SPI_GD32
 
 config SPI_GD32_INTERRUPT
-	bool "GD32 MCU SPI Interrupt Support"
+	bool "GD32 MCU SPI Interrupt driver"
 	default y if SPI_ASYNC
 	default y if SPI_GD32_DMA
 	help
 	  Enable the interrupt driven mode for SPI instances
 
 config SPI_GD32_DMA
-	bool "GD32 MCU SPI DMA Support"
+	bool "GD32 MCU SPI DMA driver"
 	select DMA
 	select SPI_GD32_INTERRUPT
 	help

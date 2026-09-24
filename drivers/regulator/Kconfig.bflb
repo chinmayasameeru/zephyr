@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config REGULATOR_BFLB
-	bool "Bouffalolab power regulation drivers"
+	bool "Bouffalolab power regulation driver"
 	default y
 	depends on DT_HAS_BFLB_AON_REGULATOR_ENABLED || DT_HAS_BFLB_RT_REGULATOR_ENABLED \
 		|| DT_HAS_BFLB_SOC_REGULATOR_ENABLED

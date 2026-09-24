@@ -7,7 +7,7 @@
 # Top-level configuration file for LORA drivers.
 
 menuconfig LORA
-	bool "LoRa drivers"
+	bool "LoRa driver"
 	select POLL
 	help
 	  Include LoRa drivers in the system configuration.

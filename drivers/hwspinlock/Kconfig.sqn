@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SQN_HWSPINLOCK
-	bool "Sequans HW spinlock Driver"
+	bool "Sequans HW spinlock driver"
 	default y
 	depends on DT_HAS_SQN_HWSPINLOCK_ENABLED
 	help

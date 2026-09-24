@@ -4,7 +4,7 @@
 # MUX (multiplexer) controller drivers configuration
 
 menuconfig MUX
-	bool "Multiplexer (MUX) drivers"
+	bool "Multiplexer (MUX) driver"
 	help
 	  Generic multiplexer controller subsystem. Provides a unified API
 	  (mux_control_set, mux_state_apply) for signal routers.

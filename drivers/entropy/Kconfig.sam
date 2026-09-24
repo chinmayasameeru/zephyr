@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config ENTROPY_SAM_RNG
-	bool "Atmel SAM MCU Family True Random Number Generator (TRNG) Driver"
+	bool "Atmel SAM MCU Family True Random Number Generator (TRNG) driver"
 	default y
 	depends on DT_HAS_ATMEL_SAM_TRNG_ENABLED
 	select ENTROPY_HAS_DRIVER

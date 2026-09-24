@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config WDT_RENESAS_RX_IWDT
-	bool "Renesas RX Series Independent Watchdog Driver"
+	bool "Renesas RX Series Independent Watchdog driver"
 	default y
 	depends on DT_HAS_RENESAS_RX_IWDT_ENABLED
 	select HAS_WDT_DISABLE_AT_BOOT if WDT_RENESAS_RX_IWDT_REGISTER_START_MODE

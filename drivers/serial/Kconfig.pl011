@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig UART_PL011
-	bool "ARM PL011 UART Driver"
+	bool "ARM PL011 UART driver"
 	default y
 	depends on DT_HAS_ARM_PL011_ENABLED || DT_HAS_ARM_SBSA_UART_ENABLED
 	select SERIAL_HAS_DRIVER

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SPI_ITE_IT8XXX2
-	bool "ITE IT8XXX2 SPI Driver"
+	bool "ITE IT8XXX2 SPI driver"
 	default y
 	depends on DT_HAS_ITE_IT8XXX2_SPI_ENABLED
 	select PINCTRL

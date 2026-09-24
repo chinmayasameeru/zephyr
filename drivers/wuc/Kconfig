@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig WUC
-	bool "Wakeup Controller drivers"
+	bool "Wakeup Controller driver"
 	help
 	  Enable wakeup controller driver configuration
 

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config CLOCK_CONTROL_RENESAS_RZ_CPG
-	bool "Renesas RZ/G Clock Control Driver"
+	bool "Renesas RZ/G Clock Control driver"
 	default y
 	depends on DT_HAS_RENESAS_RZ_CPG_ENABLED
 	select USE_RZ_FSP_CPG
@@ -12,7 +12,7 @@ config CLOCK_CONTROL_RENESAS_RZ_CPG
 	  The PLLs and core clocks are not configured by the CPG driver.
 
 config CLOCK_CONTROL_RENESAS_RZA2M_CPG
-	bool "Renesas RZ/A2M Clock Control Driver"
+	bool "Renesas RZ/A2M Clock Control driver"
 	default y
 	depends on DT_HAS_RENESAS_RZA2M_CPG_ENABLED
 	help

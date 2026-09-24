@@ -36,7 +36,7 @@ config ETH_WCH_HW_CHECKSUM
 	  performances.
 
 config ETH_WCH_MULTICAST_FILTER
-	bool "Multicast hash filter support"
+	bool "Multicast hash filter driver"
 	select CRC
 	help
 	  Enable support for multicast hash filtering in the MAC.

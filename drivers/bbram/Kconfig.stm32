@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config BBRAM_STM32
-	bool "ST STM32 Battery-backed RAM drivers"
+	bool "ST STM32 Battery-backed RAM driver"
 	default y
 	depends on DT_HAS_ST_STM32_BBRAM_ENABLED
 	depends on COUNTER_RTC_STM32 || RTC_STM32

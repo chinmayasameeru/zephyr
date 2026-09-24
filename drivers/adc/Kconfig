@@ -7,7 +7,7 @@
 # ADC options
 #
 menuconfig ADC
-	bool "Analog-to-Digital Converter (ADC) drivers"
+	bool "Analog-to-Digital Converter (ADC) driver"
 	# All platforms that implement the ADC driver are now required to
 	# provide relevant DTS entries.
 	help

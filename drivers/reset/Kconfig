@@ -7,7 +7,7 @@
 # Reset Controller options
 #
 menuconfig RESET
-	bool "Reset controller drivers"
+	bool "Reset controller driver"
 	help
 	  Reset Controller drivers. Reset node represents a region containing
 	  information about reset controller device. The typical use-case is

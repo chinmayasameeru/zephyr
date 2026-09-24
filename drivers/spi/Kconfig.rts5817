@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SPI_RTS5817
-	bool "RTS5817 SPI Controller Driver"
+	bool "RTS5817 SPI Controller driver"
 	depends on DT_HAS_REALTEK_RTS5817_SPI_ENABLED
 	select PINCTRL
 	select SPI_DW

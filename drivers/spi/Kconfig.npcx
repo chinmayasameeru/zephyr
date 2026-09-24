@@ -12,7 +12,7 @@ menuconfig SPI_NPCX_SPIP
 	  Enable the SPI peripherals on NPCX MCU.
 
 config SPI_NPCX_SPIP_INTERRUPT
-	bool "NPCX SPIP Interrupt Support"
+	bool "NPCX SPIP Interrupt driver"
 	depends on SPI_NPCX_SPIP
 	help
 	  Enable Interrupt support for the SPI Driver of NPCX chip.

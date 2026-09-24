@@ -13,12 +13,12 @@ config SPI_RENESAS_RZ_RSPI
 if SPI_RENESAS_RZ_RSPI
 
 config SPI_RENESAS_RZ_RSPI_INTERRUPT
-	bool "RZ RSPI Interrupt Support"
+	bool "RZ RSPI Interrupt driver"
 	help
 	  Enable Interrupt support for the RSPI.
 
 config SPI_RENESAS_RZ_RSPI_DMAC
-	bool "RZ SPI DMA Support"
+	bool "RZ SPI DMA driver"
 	select USE_RZ_FSP_DMAC_B if SOC_SERIES_RZG2L || SOC_SERIES_RZG2UL || SOC_SERIES_RZG3S \
 				|| SOC_SERIES_RZV2L
 	select USE_RZ_FSP_DMAC if SOC_SERIES_RZA3UL
@@ -56,18 +56,18 @@ config SPI_RENESAS_RZ_USE_INTERRUPT_SELECT
 	  Support interrupt select for the SPI.
 
 config SPI_RENESAS_RZ_INTERRUPT
-	bool "RZ SPI Interrupt Support"
+	bool "RZ SPI Interrupt driver"
 	help
 	  Enable Interrupt support for the SPI.
 
 config SPI_USE_HW_SS
-	bool "RZ SPI Hardware Peripheral Select support"
+	bool "RZ SPI Hardware Peripheral Select driver"
 	default y
 	help
 	  Use Hardware Peripheral Select instead of Software Peripheral Select.
 
 config SPI_RENESAS_RZ_DMA
-	bool "RZ SPI DMA Support"
+	bool "RZ SPI DMA driver"
 	default n
 	select SPI_RENESAS_RZ_INTERRUPT
 	select USE_RZ_FSP_DMAC if SOC_SERIES_RZT2L \

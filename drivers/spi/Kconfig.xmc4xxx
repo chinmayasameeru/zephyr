@@ -19,7 +19,7 @@ config SPI_XMC4XXX_INTERRUPT
 	  Enables interrupt support for XMC4XXX SPI driver.
 
 config SPI_XMC4XXX_DMA
-	bool "XMC4XXX SPI DMA support"
+	bool "XMC4XXX SPI DMA driver"
 	select DMA
 	help
 	  Enables DMA for SPI transfers.

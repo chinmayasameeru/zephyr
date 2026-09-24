@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig COMPARATOR
-	bool "Comparator drivers"
+	bool "Comparator driver"
 	help
 	  Enable comparator driver configuration.
 

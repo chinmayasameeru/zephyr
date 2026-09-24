@@ -4,7 +4,7 @@
 
 
 config COUNTER_AMBIQ
-	bool "Ambiq Counter Driver"
+	bool "Ambiq Counter driver"
 	default y
 	depends on DT_HAS_AMBIQ_COUNTER_ENABLED
 	select AMBIQ_HAL

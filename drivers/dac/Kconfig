@@ -7,7 +7,7 @@
 # DAC options
 #
 menuconfig DAC
-	bool "Digital-to-Analog Converter (DAC) drivers"
+	bool "Digital-to-Analog Converter (DAC) driver"
 	help
 	  Enable DAC (Digital to Analog Converter) driver configuration.
 

@@ -29,7 +29,7 @@ config I2C_STM32_V2
 	  Driver variant matching `st,stm32-i2c-v2` compatible.
 
 config I2C_STM32_INTERRUPT
-	bool "STM32 MCU I2C Interrupt Support"
+	bool "STM32 MCU I2C Interrupt driver"
 	depends on I2C_STM32_V1 || I2C_STM32_V2
 	default y
 	help
@@ -44,7 +44,7 @@ config I2C_STM32_COMBINED_INTERRUPT
 		SOC_SERIES_STM32WL3X || SOC_SERIES_STM32MP2X
 
 config I2C_STM32_BUS_RECOVERY
-	bool "Bus recovery support"
+	bool "Bus recovery driver"
 	default y if I2C_BUS_RECOVERY
 	depends on GPIO
 	select I2C_BITBANG
@@ -58,7 +58,7 @@ config I2C_STM32_V2_TIMING
 	  Enable STM32 driver bus to calculate the Timing.
 
 config I2C_STM32_V2_DMA
-	bool "DMA support"
+	bool "DMA driver"
 	default y if $(dt_compat_any_has_prop,$(DT_COMPAT_ST_STM32_I2C_V2),dmas)
 	depends on I2C_STM32_V2
 	select DMA

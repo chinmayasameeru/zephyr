@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config SDHC_ESP32
-	bool "ESP32 SDHC Driver"
+	bool "ESP32 SDHC driver"
 	default y
 	depends on DT_HAS_ESPRESSIF_ESP32_SDHC_SLOT_ENABLED
 	select SDHC_SUPPORTS_NATIVE_MODE

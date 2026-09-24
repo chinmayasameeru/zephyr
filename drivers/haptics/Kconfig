@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menuconfig HAPTICS
-	bool "Haptic feedback drivers"
+	bool "Haptic feedback driver"
 	help
 	  Enable haptics driver configuration.
 

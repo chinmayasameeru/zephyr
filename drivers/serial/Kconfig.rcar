@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config UART_RCAR
-	bool "Renesas R-Car UART Driver"
+	bool "Renesas R-Car UART driver"
 	default y
 	depends on DT_HAS_RENESAS_RCAR_SCIF_ENABLED || DT_HAS_RENESAS_RCAR_HSCIF_ENABLED
 	select SERIAL_HAS_DRIVER
